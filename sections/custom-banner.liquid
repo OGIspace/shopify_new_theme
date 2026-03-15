@@ -1,0 +1,26 @@
+<!-- sections/my-section.liquid -->
+<div style="padding:20px; background:#f2f2f2; border:1px solid #ccc;">
+  <h2>TEST SECTION</h2>
+  <p>Це тестова секція для Dev Store</p>
+</div>
+
+{% schema %}
+{
+  "name": "My Section",
+  "category": "Customm",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Заголовок",
+      "default": "Привіт, Shopify!"
+    }
+  ],
+  "presets": [
+    {
+      "name": "My Section",
+      "category": "Customm"
+    }
+  ]
+}
+{% endschema %}
